@@ -3,7 +3,7 @@ import os
 
 palabras = ["programar", "data", "science", "python", "machine", "learning"]
 
-palabra = palabras[randint(0, 5)].upper()
+palabra = palabras[randint(0, len(palabras))].upper()
 vidas = 6
 print("\nEste es el juego del ahoracado, sigue las intrucciones que te doy, si te equivocas 6 veces pierdes\n")
 print("_ " * len(palabra))
