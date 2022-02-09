@@ -40,7 +40,8 @@ while vidas > 0:
                     print(i, end=" ")
                 else:
                     print("_", end=" ")
+            print("")
 
 if vidas == 0:
     os.system("cls")
-    print(f"\nPerdiste, la palabra era '{palabra}' y no la adivinaste")
+    print(f"Perdiste, la palabra era '{palabra}' y no la adivinaste")
